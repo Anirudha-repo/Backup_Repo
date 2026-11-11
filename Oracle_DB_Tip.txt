@@ -1,0 +1,3 @@
+CREATE TABLE CONN_LOOKUP_TARGET AS SELECT EMPNO, ENAME, JOB, SAL,ENAME AS LOC,ENAME AS DNAME FROM SRC_EMP WHERE 1=2; 
+
+Command to create Target Table with new fields which are not in source 
